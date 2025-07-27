@@ -1,0 +1,2 @@
+- In `/fundamental_models` you find all fundamental models.
+- In `/data` you find a dump of support candidates which is required for computing all fundamental models.
