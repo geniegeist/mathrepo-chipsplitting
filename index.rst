@@ -47,9 +47,9 @@ Project contributors: Carlos Améndola, Viet Duc Nguyen, Janike Oldekop
 
 Corresponding author of this page: 
 
-Software used: 
+Software used: The computations were performed using Python 3, with the libraries Cython and NumPy. The code was executed within a Jupyter Notebook environment.
 
-System setup used: 
+System setup used: The analysis was run on a MacBook Pro (2023) equipped with an Apple M3 Pro processor and 36 GB of RAM, running macOS 15.5.
 
 License for code of this project page: MIT License (https://spdx.org/licenses/MIT.html)
 
