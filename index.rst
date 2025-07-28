@@ -33,11 +33,27 @@ where :math:`\nu_i` and :math:`\mu_i` are non-negative exponents and :math:`c_i`
 .. math::
     c_0t^{\nu_0}(1-t)^{\mu_0} + c_1t^{\nu_1}(1-t)^{\mu_1} + \ldots + c_nt^{\nu_n}(1-t)^{\mu_n} = 1.
 
-Its degree is defined as :math:`\textup{deg}(\mathcal{M}) = \max \{ \nu_i + \mu_i \mid i \in [n] \}`. According to Section 6 in the paper, fundamental models exist whenever :math:`n\le d\le 2n-1`. The number of fundamental models for small :math:`n,d\in\mathbb{N}^+` is presented in Table 1 and Figure 9 in the paper. The source code can be downloaded here:
+Its degree is defined as :math:`\textup{deg}(\mathcal{M}) = \max \{ \nu_i + \mu_i \mid i \in [n] \}`. According to Section 6 in the paper, fundamental models exist whenever :math:`n\le d\le 2n-1`. The number of fundamental models for small :math:`n,d\in\mathbb{N}^+` is presented in Table 1 and Figure 9 in the paper. The source code can be viewed here:
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :titlesonly:
+   
+   support_candidates
+   fundamental_models
 
 :download:`support_candidates.ipynb <support_candidates.ipynb>`
 
 :download:`fundamental_models.ipynb <fundamental_models.ipynb>`
+
+The notebooks make use of a `chipsplitting library`_ developed for this project.
+
+A dump of candidate supports can be downloaded from the repository (see the ``data/`` directory). Note that cases for degree :math:`d \geq 10` have been excluded due to large file sizes (over 100mb). They can be recomputed by running the ``support_candidates.ipynb`` notebook, though this may take several hours.
+
+The dataset of all fundamental models, computed by ``fundamental_models.ipynb``, is also available there (see the ``fundamental-models/`` directory).
+
+.. _chipsplitting library: https://gitlab.mis.mpg.de/rok/mathrepo/-/tree/master/source/FundamentalModels
 
 -------------------------------------------------------------------------
 
